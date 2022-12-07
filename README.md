@@ -8,7 +8,17 @@ Under construction 👷.
 
 ## Dockerize
 
-Please review the [docker](https://github.com/jhordyess/simple-loan-calculator/tree/docker) branch.
+Run the `docker.sh` file, it will create a new container image with the tag `jhordyess/simloc` and run it; so you can visit [http://localhost](http://localhost).
+
+```sh
+bash docker.sh
+```
+
+Run for PowerShell `docker.ps1`.
+
+```ps1
+& docker.ps1
+```
 
 ## License
 
